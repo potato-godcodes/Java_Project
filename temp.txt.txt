@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class f {
+
+    
+
+    public static void main ( String[]args) {
+
+
+        System.out.println("comverçao de temperatura");
+
+        System.out.println("");
+
+        System.out.println("digite a temperatura");
+
+        Scanner teste = new Scanner(System.in);
+
+        int C = teste.nextInt();
+
+        System.out.println("em fahrenheit é:");
+
+        System.out.println((9*C+160)/5);
+        
+
+    }
+    
+}
